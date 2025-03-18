@@ -1,0 +1,17 @@
+Backend-Server/
+│
+├── node_modules/          # Installed Node.js dependencies (created by npm)
+│
+├── public/                # Publicly accessible frontend files
+│   ├── index.html         # Homepage (Art Portfolio)
+│   ├── contact.html       # Contact form page
+│   ├── manage_contact.html # Contact management page
+│   ├── script.js          # Frontend JavaScript logic
+│
+├── contacts.json          # Stores submitted contact information
+├── artworks.json          # Stores artworks data
+│
+├── app.js                 # Main Node.js backend server
+├── package.json           # Project metadata and dependencies
+└── package-lock.json      # Auto-generated dependency lock file
+
